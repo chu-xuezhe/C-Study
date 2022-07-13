@@ -7,6 +7,85 @@
 
 
 
+
+
+struct S
+{
+	int n;
+	int* arr;
+};
+
+int main()
+{
+	struct S* ps = (struct S*)malloc(sizeof(struct S));
+	ps->arr = malloc(5 * sizeof(int));
+	int i = 0;
+	for (i = 0; i < 5; i++)
+	{
+		ps->arr[i] = i;
+	}
+	for (i = 0; i < 5; i++)
+	{
+		printf("%d ", ps->arr[i]);
+	}
+	printf("\n");
+	int* ptr = realloc(ps->arr, 10 * sizeof(int));
+	for (i = 5; i < 10; i++)
+	{
+		ps->arr[i] = i;
+	}
+	for (i = 0; i < 10; i++)
+	{
+		printf("%d ", ps->arr[i]);
+	}
+	//释放内存
+	free(ps->arr);
+	ps->arr = NULL;
+	free(ps);
+	ps = NULL;
+	return 0;
+}
+
+
+
+
+//struct S
+//{
+//	int n;
+//	int arr[0];//未知大小的-柔性数组成员-数组的大小是可以调整的
+//};
+
+//int main()
+//{
+//	//struct S s;
+//	//printf("%d\n", sizeof(s));//4
+//
+//	struct S* ps = (struct S*)malloc(sizeof(struct S) + 5 * sizeof(int));
+//	ps->n = 100;
+//
+//	int i = 0;
+//	for (i = 0; i < 5; i++)
+//	{
+//		ps->arr[i] = i;//0 1 2 3 4
+//	}
+//	struct S* ptr = realloc(ps, 44);
+//	if (ptr != NULL)
+//	{
+//		ps = ptr;
+//	}
+//	for (i = 5; i < 10; i++)
+//	{
+//		ps->arr[i] = i;//0 1 2 3 4
+//	}
+//	for (i = 0; i < 10; i++)
+//	{
+//		printf("%d ", ps->arr[i]);
+//	}
+//	return 0;
+//}
+
+
+
 //void GetMemory(char *p)
 //{
 //	p = (char *)malloc(100);//p出了函数就无效了，并且有内存泄露
@@ -17,30 +96,32 @@
 //	GetMemory(str);//这里是传值，str本身是个变量
 //	strcpy(str, "hello world");//函数会出错，因为str是空指针
 //	printf(str);
-//}//int main()
+//}
+//int main()
 //{
 //	Test();
 //	return 0;
 //}
 
 //正确版
-void GetMemory(char **p)
-{
-	*p = (char *)malloc(100);
-}
-void Test(void)
-{
-	char *str = NULL;
-	GetMemory(&str);
-	strcpy(str, "hello world");
-	printf(str);
-	free(str);
-	str = NULL;
-}int main()
-{
-	Test();
-	return 0;
-}
+//void GetMemory(char **p)
+//{
+//	*p = (char *)malloc(100);
+//}
+//void Test(void)
+//{
+//	char *str = NULL;
+//	GetMemory(&str);
+//	strcpy(str, "hello world");
+//	printf(str);
+//	free(str);
+//	str = NULL;
+//}
+//int main()
+//{
+//	Test();
+//	return 0;
+//}
 
 
 
