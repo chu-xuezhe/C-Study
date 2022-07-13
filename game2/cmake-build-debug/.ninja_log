@@ -1,0 +1,10 @@
+# ninja log v5
+11	114	6727274638448524	CMakeFiles/game2.dir/game2/game.c.obj	451b3febbbc8e7a1
+1	128	6727274638594722	CMakeFiles/game2.dir/game2/test.c.obj	a658397c1af3e315
+129	917	6727274646434726	game2.exe	a18c5d3beb6ef27c
+1	111	6727274979060843	CMakeFiles/game2.dir/game2/test.c.obj	a658397c1af3e315
+112	288	6727274980793424	game2.exe	a18c5d3beb6ef27c
+2	112	6727275841795974	CMakeFiles/game2.dir/game2/test.c.obj	a658397c1af3e315
+112	292	6727275843571410	game2.exe	a18c5d3beb6ef27c
+2	111	6727276245749374	CMakeFiles/game2.dir/game2/test.c.obj	a658397c1af3e315
+112	292	6727276247511306	game2.exe	a18c5d3beb6ef27c

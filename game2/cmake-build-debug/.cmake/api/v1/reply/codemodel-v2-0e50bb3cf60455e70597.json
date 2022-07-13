@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "game2",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "game2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-game2-Debug-42f26410bb9006987dd5.json",
+					"name" : "game2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/\u7528\u6237/desktop/B\u7ad9C\u8bed\u8a00/\u7ec3\u4e60\u4ee3\u7801/game2/cmake-build-debug",
+		"source" : "D:/\u7528\u6237/desktop/B\u7ad9C\u8bed\u8a00/\u7ec3\u4e60\u4ee3\u7801/game2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
