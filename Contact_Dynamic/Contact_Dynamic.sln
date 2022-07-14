@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2017
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Contact_Dynamic", "Contact_Dynamic\Contact_Dynamic.vcxproj", "{F3C5BCB9-5085-4413-B3E5-5C7FF4C2443A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C5BCB9-5085-4413-B3E5-5C7FF4C2443A}.Debug|x64.ActiveCfg = Debug|x64
+		{F3C5BCB9-5085-4413-B3E5-5C7FF4C2443A}.Debug|x64.Build.0 = Debug|x64
+		{F3C5BCB9-5085-4413-B3E5-5C7FF4C2443A}.Debug|x86.ActiveCfg = Debug|Win32
+		{F3C5BCB9-5085-4413-B3E5-5C7FF4C2443A}.Debug|x86.Build.0 = Debug|Win32
+		{F3C5BCB9-5085-4413-B3E5-5C7FF4C2443A}.Release|x64.ActiveCfg = Release|x64
+		{F3C5BCB9-5085-4413-B3E5-5C7FF4C2443A}.Release|x64.Build.0 = Release|x64
+		{F3C5BCB9-5085-4413-B3E5-5C7FF4C2443A}.Release|x86.ActiveCfg = Release|Win32
+		{F3C5BCB9-5085-4413-B3E5-5C7FF4C2443A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49BA8956-40DD-4601-A636-A1DAAD74878E}
+	EndGlobalSection
+EndGlobal
